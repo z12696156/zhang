@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim
+EAQVm2WVz9weJga8u7D//okZS2i9eVHUPSd55Vb+K8IA=
+Z1 w1679130499
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8../../../../prj.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+Z5 F../../../../prj.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+l0
+L64
+V=0eBVOKo<:lM]kGXJA7213
+!s100 =fbceS>k:Am>FzX:MI8;?1
+Z6 OP;C;10.6c;65
+!i119 1
+!i8a 169597856
+31
+Z7 !s110 1679134486
+!i10b 1
+Z8 !s108 1679134486.000000
+Z9 !s90 -64|-93|-work|xbip_pipe_v3_0_5|../../../../prj.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+Z10 !s107 ../../../../prj.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+!i113 1
+Z11 o-93 -work xbip_pipe_v3_0_5
+Z12 tExplicit 1 CvgOpt 0
+nfbcb95
+A1Tqg8SvENPiiSMSCfglyIA==
+Z13 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 6SfkPNT;DO9^n_3hG>gbC1
+Z14 DEx16 xbip_pipe_v3_0_5 20 xbip_pipe_v3_0_5_viv 0 22 @jSkYPm0Zg[6]FzWDd;463
+R2
+R3
+Z15 DEx4 work 16 xbip_pipe_v3_0_5 0 22 =0eBVOKo<:lM]kGXJA7213
+l64
+L64
+Z16 VR@23^6Tl>hXG=B42Jcz0J0
+Z17 !s100 mKomD93lA1GMf_Gj6Ll=A1
+R6
+!i119 1
+!i8a 1164357952
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Z18 n7f03058
+Ps82V1TBLWY2tFG7hWskomQ32LQkfiIBCb+iDCwQ/r6I=
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L64
+VmocHaQ8]oha]5LTz;GFHa1
+!s100 WBmUSL^;<So@CeU<]BmL61
+R6
+!i119 1
+!i8a 1286071296
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n9ba3af0
+EvmiXJkyDDVePfwcFT04jKqh1L0tt3l2DlM6MT3jSCQY=
+R1
+R13
+R2
+R3
+R0
+R4
+R5
+l0
+L64
+V@jSkYPm0Zg[6]FzWDd;463
+!s100 0402H3UZYiRlIa5P;D`^32
+R6
+!i119 1
+!i8a 183294448
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nb9b98c6
+AeyIBKuir3O1lj9IGfweAYg==
+R13
+R2
+R3
+Z19 DEx4 work 20 xbip_pipe_v3_0_5_viv 0 22 @jSkYPm0Zg[6]FzWDd;463
+l64
+L64
+Z20 V?[_NI]hG=`D`Z2BSZA@<_1
+Z21 !s100 I?P9743:mWAF9@F9XzQ7S2
+R6
+!i119 1
+!i8a 16145056
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Z22 n7b05a8
+PlGWVuwaXuZ0u0ztWAz5qgcZVjy55J/dNoW9ReRuBotQ=
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L64
+Vo<zN8bn0Vd_5i0U:3j2;T0
+!s100 b[H8F3aX5kAGO;f8C9JBP2
+R6
+!i119 1
+!i8a 109604560
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nc1c3dc0

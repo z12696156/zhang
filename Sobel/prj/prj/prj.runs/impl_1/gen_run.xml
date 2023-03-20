@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-3" LaunchTime="1679138804">
+  <File Type="BITSTR-BMM" Name="Sobel_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Sobel_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Sobel_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Sobel_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Sobel.tcl"/>
+  <File Type="OPT-TIMING" Name="Sobel_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Sobel_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Sobel_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Sobel_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Sobel_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Sobel.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Sobel_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Sobel_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Sobel_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Sobel_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Sobel_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Sobel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Sobel_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Sobel_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Sobel_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Sobel_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Sobel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Sobel.bgn"/>
+  <File Type="PLACE-TIMING" Name="Sobel_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Sobel_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Sobel.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Sobel_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Sobel_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Sobel_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Sobel.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Sobel_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Sobel_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Sobel_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Sobel_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Sobel_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Sobel_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Sobel.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Sobel_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Sobel.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Sobel_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Sobel_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Sobel.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Sobel_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Sobel_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Sobel_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Sobel_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Sobel_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Sobel_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Sobel_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Sobel_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Sobel_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Sobel_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Sobel_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Sobel_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Sobel_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Sobel_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Sobel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Sobel_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Sobel_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Sobel_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Sobel_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Sobel.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Sobel_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Sobel.rbt"/>
+  <File Type="BITSTR-NKY" Name="Sobel.nky"/>
+  <File Type="BG-DRC" Name="Sobel.drc"/>
+  <File Type="RDI-RDI" Name="Sobel.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../src/CalCore.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/Matrix.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/PluseDection.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/Sobel.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/PicSim.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/VesaDriver.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Sobel"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Fifo_In8x1024_Out8x1024"/>
+  <BlockFileSet Type="BlockSrcs" Name="Square_Root"/>
+</GenRun>

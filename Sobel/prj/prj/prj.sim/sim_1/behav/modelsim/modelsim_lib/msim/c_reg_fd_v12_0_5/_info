@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim
+EXID/buMubjac16Re7726+zP9QZdTL4hGs1C/XP5eckI=
+Z1 w1679130499
+Z2 DPx16 c_reg_fd_v12_0_5 25 c_reg_fd_v12_0_5_viv_comp 0 22 H<YgDf_ncTY=<0g:fH?R63
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8../../../../prj.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd
+Z6 F../../../../prj.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd
+l0
+L64
+VFniIOnJ9zjRmKRe9dkgO_2
+!s100 ?fFPk@gbf_gbn_7<IUHkX3
+Z7 OP;C;10.6c;65
+!i119 1
+!i8a 742706496
+31
+Z8 !s110 1679134485
+!i10b 1
+Z9 !s108 1679134485.000000
+Z10 !s90 -64|-93|-work|c_reg_fd_v12_0_5|../../../../prj.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd|
+Z11 !s107 ../../../../prj.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd|
+!i113 1
+Z12 o-93 -work c_reg_fd_v12_0_5
+Z13 tExplicit 1 CvgOpt 0
+n29546c5
+AfSXfoS+N+sf+9qkW0enNUw==
+R2
+R3
+R4
+Z14 DEx4 work 16 c_reg_fd_v12_0_5 0 22 FniIOnJ9zjRmKRe9dkgO_2
+l64
+L64
+Z15 V>SXL7VbMEW]50VPXCJeH90
+Z16 !s100 @Dh`UGDn4fRNUI7EN;E`Z0
+R7
+!i119 1
+!i8a 2013469760
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Z17 n7f03058
+P5dbdsv1jj7BgGnUwXZ0qwPsbAFmtcONa4ytvKO3LtKs=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L64
+Vk6TQB2EMaDZUe1oO@7iSK0
+!s100 7QJ5m2cdf4Bhh_KEXl;H12
+R7
+!i119 1
+!i8a 1518995248
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+nc9cd220
+ELeYRZ6huciKKfEoAoEuqiSfrCfTJzcCK5I5Z90pkgso=
+R1
+Z18 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 6SfkPNT;DO9^n_3hG>gbC1
+R3
+R4
+R0
+R5
+R6
+l0
+L64
+VK11E]chRPdJ5k8GR64_Wd2
+!s100 gfoO>_7_TZLD8?Lcm?>^a0
+R7
+!i119 1
+!i8a 581471040
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n6c9fa46
+AMnGoUCfRSuBsHozZtLZI1A==
+R18
+R3
+R4
+Z19 DEx4 work 20 c_reg_fd_v12_0_5_viv 0 22 K11E]chRPdJ5k8GR64_Wd2
+l64
+L64
+Z20 V@dnae7D1;3GlECn21P<991
+Z21 !s100 COVh5J3GU0Oz`K5MbSSQF1
+R7
+!i119 1
+!i8a 881867344
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Z22 nbac63ec
+P9OKfEN1yCf9leGUNbMKkWzGLFxd7cMc+sb/R7a3vkWQ=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L64
+VH<YgDf_ncTY=<0g:fH?R63
+!s100 kL0bj0<nS7X_U2d8Qb2mm1
+R7
+!i119 1
+!i8a 2000294688
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n4e91be0

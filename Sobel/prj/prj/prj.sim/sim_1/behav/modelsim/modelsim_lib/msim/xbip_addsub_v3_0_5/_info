@@ -1,0 +1,156 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim
+EdanZ4NjDGrqXRBhjdFgJRPP3qZyBItTfLfeZfK+3sro=
+Z1 w1679130499
+Z2 DPx18 xbip_addsub_v3_0_5 27 xbip_addsub_v3_0_5_viv_comp 0 22 ZJXLPW_]<gTz3=FiIPinQ3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8../../../../prj.ip_user_files/ipstatic/hdl/xbip_addsub_v3_0_vh_rfs.vhd
+Z6 F../../../../prj.ip_user_files/ipstatic/hdl/xbip_addsub_v3_0_vh_rfs.vhd
+l0
+L64
+V2dV?7^J3:IThD9QV0C`jL2
+!s100 Pm<h7]]`_KI]TGzl^hL3>3
+Z7 OP;C;10.6c;65
+!i119 1
+!i8a 1436615696
+31
+Z8 !s110 1679134486
+!i10b 1
+Z9 !s108 1679134486.000000
+Z10 !s90 -64|-93|-work|xbip_addsub_v3_0_5|../../../../prj.ip_user_files/ipstatic/hdl/xbip_addsub_v3_0_vh_rfs.vhd|
+Z11 !s107 ../../../../prj.ip_user_files/ipstatic/hdl/xbip_addsub_v3_0_vh_rfs.vhd|
+!i113 1
+Z12 o-93 -work xbip_addsub_v3_0_5
+Z13 tExplicit 1 CvgOpt 0
+n6db8915
+AkjH9oSn9vNFC7imCW59jBw==
+R2
+R3
+R4
+Z14 DEx4 work 18 xbip_addsub_v3_0_5 0 22 2dV?7^J3:IThD9QV0C`jL2
+l64
+L64
+Z15 V@;I[3C01B9]o<RQ9<e@l;1
+Z16 !s100 0mMiTmnFZ`aG]<ZMX=5Xj2
+R7
+!i119 1
+!i8a 1156664800
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Z17 n7f03058
+PObe8LR94xQCx1speZD1+OFR/l5dqlkPYth+aqkDVnuk=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L64
+Vc>_OIJmcgXHFGhFJ4j7Z^1
+!s100 LAakze?k?[WeO015X;1Mk1
+R7
+!i119 1
+!i8a 172925792
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n1d83ed0
+EoEGGDY8Qp8p70QZnHbvDOWFhAGN5rrv7KoE4GIYRF2Q=
+R1
+Z18 DPx24 xbip_dsp48_addsub_v3_0_5 33 xbip_dsp48_addsub_v3_0_5_viv_comp 0 22 0omD863]<[ne68K_LJ]am1
+Z19 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 6SfkPNT;DO9^n_3hG>gbC1
+Z20 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R0
+R5
+R6
+l0
+L64
+VU;E8Xn;7F05JO]XBE[dV<3
+!s100 @;Wf?LcOj<6h0nI9;F72K0
+R7
+!i119 1
+!i8a 2145314976
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n91db886
+AeLKZJyprkHi/j9mrfef9fA==
+R18
+R19
+R20
+R3
+R4
+Z21 DEx4 work 22 xbip_addsub_v3_0_5_viv 0 22 U;E8Xn;7F05JO]XBE[dV<3
+l64
+L64
+Z22 VYkPfUZc3jERP59g3GG<jU0
+Z23 !s100 SeD`XjO?@BP;MCMO=7_bF3
+R7
+!i119 1
+!i8a 1450356416
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Z24 n7b05a8
+PjBJD9zG9r4XIhujBrom9HYJmmFZql3jc3aCer1rgABE=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L64
+VZJXLPW_]<gTz3=FiIPinQ3
+!s100 >7cgWSkmzk7RLM7WZTYfN0
+R7
+!i119 1
+!i8a 1563513104
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n8345fc0

@@ -1,0 +1,642 @@
+
+*** Running vivado
+    with args -log Sobel.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Sobel.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Sobel.tcl -notrace
+Command: synth_design -top Sobel -part xc7k325tffg900-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15232 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 447.395 ; gain = 97.750
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Sobel' [F:/image_process/Sobel/src/Sobel.v:1]
+	Parameter IMAGE_W bound to: 640 - type: integer 
+	Parameter IMAGE_H bound to: 480 - type: integer 
+	Parameter IMAGE_DW bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'PluseDection' [F:/image_process/Sobel/src/PluseDection.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PluseDection' (1#1) [F:/image_process/Sobel/src/PluseDection.v:1]
+WARNING: [Synth 8-350] instance 'PluseDection' of module 'PluseDection' requires 7 connections, but only 3 given [F:/image_process/Sobel/src/Sobel.v:72]
+INFO: [Synth 8-6157] synthesizing module 'Matrix' [F:/image_process/Sobel/src/Matrix.v:1]
+	Parameter IMAGE_W bound to: 640 - type: integer 
+	Parameter IMAGE_H bound to: 480 - type: integer 
+	Parameter LINE_NUM bound to: 3 - type: integer 
+WARNING: [Synth 8-350] instance 'PluseDection' of module 'PluseDection' requires 7 connections, but only 3 given [F:/image_process/Sobel/src/Matrix.v:32]
+INFO: [Synth 8-6157] synthesizing module 'Fifo_In8x1024_Out8x1024' [F:/image_process/Sobel/prj/prj/prj.runs/synth_1/.Xil/Vivado-16660-DESKTOP-20OP433/realtime/Fifo_In8x1024_Out8x1024_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Fifo_In8x1024_Out8x1024' (2#1) [F:/image_process/Sobel/prj/prj/prj.runs/synth_1/.Xil/Vivado-16660-DESKTOP-20OP433/realtime/Fifo_In8x1024_Out8x1024_stub.v:6]
+WARNING: [Synth 8-6014] Unused sequential element ColCnt_reg was removed.  [F:/image_process/Sobel/src/Matrix.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'Matrix' (3#1) [F:/image_process/Sobel/src/Matrix.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CalCore' [F:/image_process/Sobel/src/CalCore.v:1]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp = "yes" *) [F:/image_process/Sobel/src/CalCore.v:18]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp = "yes" *) [F:/image_process/Sobel/src/CalCore.v:19]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp = "yes" *) [F:/image_process/Sobel/src/CalCore.v:20]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp = "yes" *) [F:/image_process/Sobel/src/CalCore.v:21]
+WARNING: [Synth 8-3936] Found unconnected internal register 'rInDataDe_reg' and it is trimmed from '3' to '2' bits. [F:/image_process/Sobel/src/CalCore.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'CalCore' (4#1) [F:/image_process/Sobel/src/CalCore.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Square_Root' [F:/image_process/Sobel/prj/prj/prj.runs/synth_1/.Xil/Vivado-16660-DESKTOP-20OP433/realtime/Square_Root_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Square_Root' (5#1) [F:/image_process/Sobel/prj/prj/prj.runs/synth_1/.Xil/Vivado-16660-DESKTOP-20OP433/realtime/Square_Root_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Sobel' (6#1) [F:/image_process/Sobel/src/Sobel.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 501.945 ; gain = 152.301
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 501.945 ; gain = 152.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 501.945 ; gain = 152.301
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k325tffg900-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/Fifo_In8x1024_Out8x1024/Fifo_In8x1024_Out8x1024_in_context.xdc] for cell 'u_Matrix/u0_Fifo_In8x1024_Out8x1024'
+Finished Parsing XDC File [f:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/Fifo_In8x1024_Out8x1024/Fifo_In8x1024_Out8x1024_in_context.xdc] for cell 'u_Matrix/u0_Fifo_In8x1024_Out8x1024'
+Parsing XDC File [f:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/Fifo_In8x1024_Out8x1024/Fifo_In8x1024_Out8x1024_in_context.xdc] for cell 'u_Matrix/u1_Fifo_In8x1024_Out8x1024'
+Finished Parsing XDC File [f:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/Fifo_In8x1024_Out8x1024/Fifo_In8x1024_Out8x1024_in_context.xdc] for cell 'u_Matrix/u1_Fifo_In8x1024_Out8x1024'
+Parsing XDC File [f:/image_process/Sobel/src/ip/Square_Root/Square_Root/Square_Root_in_context.xdc] for cell 'Square_Root'
+Finished Parsing XDC File [f:/image_process/Sobel/src/ip/Square_Root/Square_Root/Square_Root_in_context.xdc] for cell 'Square_Root'
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 883.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 883.789 ; gain = 534.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 883.789 ; gain = 534.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for u_Matrix/u0_Fifo_In8x1024_Out8x1024. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_Matrix/u1_Fifo_In8x1024_Out8x1024. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Square_Root. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 883.789 ; gain = 534.145
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element rOutData_reg was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element rInData1_reg was removed.  [F:/image_process/Sobel/src/CalCore.v:29]
+WARNING: [Synth 8-6014] Unused sequential element rInData2_reg was removed.  [F:/image_process/Sobel/src/CalCore.v:30]
+WARNING: [Synth 8-6014] Unused sequential element rInData3_reg was removed.  [F:/image_process/Sobel/src/CalCore.v:31]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element SquareAbsYSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:234]
+WARNING: [Synth 8-6014] Unused sequential element SquareAbsYSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:234]
+WARNING: [Synth 8-6014] Unused sequential element AbsXSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:157]
+WARNING: [Synth 8-6014] Unused sequential element AbsYSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:227]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 883.789 ; gain = 534.145
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 2     
++---Registers : 
+	               48 Bit    Registers := 6     
+	               24 Bit    Registers := 3     
+	               18 Bit    Registers := 6     
+	               16 Bit    Registers := 4     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 18    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Sobel 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module PluseDection 
+Detailed RTL Component Info : 
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+Module Matrix 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
+Module CalCore 
+Detailed RTL Component Info : 
++---Registers : 
+	               48 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'AbsXSum_reg[15:0]' into 'AbsXSum_reg[15:0]' [F:/image_process/Sobel/src/Sobel.v:157]
+INFO: [Synth 8-4471] merging register 'AbsYSum_reg[15:0]' into 'AbsYSum_reg[15:0]' [F:/image_process/Sobel/src/Sobel.v:227]
+WARNING: [Synth 8-6014] Unused sequential element PluseDection/rNegSig_reg was removed.  [F:/image_process/Sobel/src/PluseDection.v:23]
+WARNING: [Synth 8-6014] Unused sequential element u_Matrix/PluseDection/rPosSig_reg was removed.  [F:/image_process/Sobel/src/PluseDection.v:22]
+WARNING: [Synth 8-6014] Unused sequential element u_Matrix/PluseDection/rNegSig_reg was removed.  [F:/image_process/Sobel/src/PluseDection.v:23]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element C was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element A was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element AbsXSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:157]
+WARNING: [Synth 8-6014] Unused sequential element AbsYSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:227]
+WARNING: [Synth 8-6014] Unused sequential element C was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element SquareAbsYSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:234]
+WARNING: [Synth 8-6014] Unused sequential element SquareAbsYSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:234]
+WARNING: [Synth 8-6014] Unused sequential element y1_CalCore/rOutData_reg was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element x1_CalCore/rOutData_reg was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element SquareAbsXSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:164]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element C was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element AbsXSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:157]
+WARNING: [Synth 8-6014] Unused sequential element AbsYSum_reg was removed.  [F:/image_process/Sobel/src/Sobel.v:227]
+WARNING: [Synth 8-6014] Unused sequential element A was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element A was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element A was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element A was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element A was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element C was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:27]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [F:/image_process/Sobel/src/CalCore.v:43]
+DSP Report: Generating DSP C, operation Mode is: (A''*(B:0x0) or 0).
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register C is absorbed into DSP C.
+DSP Report: operator x1_CalCore/rInData20 is absorbed into DSP C.
+DSP Report: Generating DSP C, operation Mode is: (A''*(B:0x3ffff) or 0).
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register C is absorbed into DSP C.
+DSP Report: operator x1_CalCore/rInData10 is absorbed into DSP C.
+DSP Report: Generating DSP x1_CalCore/rOutData0, operation Mode is: C+A2:B2.
+DSP Report: register B is absorbed into DSP x1_CalCore/rOutData0.
+DSP Report: register A is absorbed into DSP x1_CalCore/rOutData0.
+DSP Report: operator x1_CalCore/rOutData0 is absorbed into DSP x1_CalCore/rOutData0.
+DSP Report: Generating DSP x1_CalCore/rOutData_reg, operation Mode is: (C+A:B)'.
+DSP Report: register x1_CalCore/rOutData_reg is absorbed into DSP x1_CalCore/rOutData_reg.
+DSP Report: operator x1_CalCore/rOutData0 is absorbed into DSP x1_CalCore/rOutData_reg.
+DSP Report: Generating DSP C, operation Mode is: (A''*(B:0x0) or 0).
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register C is absorbed into DSP C.
+DSP Report: operator x3_CalCore/rInData20 is absorbed into DSP C.
+DSP Report: Generating DSP C, operation Mode is: (A''*(B:0x3ffff) or 0).
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register C is absorbed into DSP C.
+DSP Report: operator x3_CalCore/rInData10 is absorbed into DSP C.
+DSP Report: Generating DSP x3_CalCore/rOutData0, operation Mode is: C+A2:B2.
+DSP Report: register B is absorbed into DSP x3_CalCore/rOutData0.
+DSP Report: register A is absorbed into DSP x3_CalCore/rOutData0.
+DSP Report: operator x3_CalCore/rOutData0 is absorbed into DSP x3_CalCore/rOutData0.
+DSP Report: Generating DSP x3_CalCore/rOutData_reg, operation Mode is: (C+A:B)'.
+DSP Report: register x3_CalCore/rOutData_reg is absorbed into DSP x3_CalCore/rOutData_reg.
+DSP Report: operator x3_CalCore/rOutData0 is absorbed into DSP x3_CalCore/rOutData_reg.
+DSP Report: Generating DSP C, operation Mode is: (A''*(B:0x0) or 0).
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register C is absorbed into DSP C.
+DSP Report: operator x2_CalCore/rInData20 is absorbed into DSP C.
+DSP Report: Generating DSP C, operation Mode is: (A''*(B:0x3fffe) or 0).
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register C is absorbed into DSP C.
+DSP Report: operator x2_CalCore/rInData10 is absorbed into DSP C.
+DSP Report: Generating DSP x2_CalCore/rOutData0, operation Mode is: C+A2:B2.
+DSP Report: register B is absorbed into DSP x2_CalCore/rOutData0.
+DSP Report: register A is absorbed into DSP x2_CalCore/rOutData0.
+DSP Report: operator x2_CalCore/rOutData0 is absorbed into DSP x2_CalCore/rOutData0.
+DSP Report: Generating DSP x2_CalCore/rOutData_reg, operation Mode is: (C+A:B)'.
+DSP Report: register x2_CalCore/rOutData_reg is absorbed into DSP x2_CalCore/rOutData_reg.
+DSP Report: operator x2_CalCore/rOutData0 is absorbed into DSP x2_CalCore/rOutData_reg.
+DSP Report: Generating DSP XSum_reg, operation Mode is: (PCIN+A:B+C)'.
+DSP Report: register XSum_reg is absorbed into DSP XSum_reg.
+DSP Report: operator XSum0 is absorbed into DSP XSum_reg.
+DSP Report: Generating DSP SquareAbsXSum_reg, operation Mode is: (A2*B2)'.
+DSP Report: register AbsXSum_reg is absorbed into DSP SquareAbsXSum_reg.
+DSP Report: register AbsXSum_reg is absorbed into DSP SquareAbsXSum_reg.
+DSP Report: register SquareAbsXSum_reg is absorbed into DSP SquareAbsXSum_reg.
+DSP Report: operator SquareAbsXSum0 is absorbed into DSP SquareAbsXSum_reg.
+DSP Report: Generating DSP y1_CalCore/rOutData0, operation Mode is: C'+A2:B2.
+DSP Report: register B is absorbed into DSP y1_CalCore/rOutData0.
+DSP Report: register A is absorbed into DSP y1_CalCore/rOutData0.
+DSP Report: register C is absorbed into DSP y1_CalCore/rOutData0.
+DSP Report: operator y1_CalCore/rOutData0 is absorbed into DSP y1_CalCore/rOutData0.
+DSP Report: Generating DSP y1_CalCore/rOutData_reg, operation Mode is: (C'+A:B)'.
+DSP Report: register C is absorbed into DSP y1_CalCore/rOutData_reg.
+DSP Report: register y1_CalCore/rOutData_reg is absorbed into DSP y1_CalCore/rOutData_reg.
+DSP Report: operator y1_CalCore/rOutData0 is absorbed into DSP y1_CalCore/rOutData_reg.
+DSP Report: Generating DSP C, operation Mode is: (A''*(B:0x3fffe) or 0).
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register C is absorbed into DSP C.
+DSP Report: operator y3_CalCore/rInData20 is absorbed into DSP C.
+DSP Report: Generating DSP y3_CalCore/rInData30, operation Mode is: (A2*(B:0x3ffff) or 0).
+DSP Report: register A is absorbed into DSP y3_CalCore/rInData30.
+DSP Report: operator y3_CalCore/rInData30 is absorbed into DSP y3_CalCore/rInData30.
+DSP Report: Generating DSP y3_CalCore/rOutData0, operation Mode is: C+A2:B2.
+DSP Report: register B is absorbed into DSP y3_CalCore/rOutData0.
+DSP Report: register A is absorbed into DSP y3_CalCore/rOutData0.
+DSP Report: operator y3_CalCore/rOutData0 is absorbed into DSP y3_CalCore/rOutData0.
+DSP Report: Generating DSP y3_CalCore/rOutData_reg, operation Mode is: (C+A:B)'.
+DSP Report: register y3_CalCore/rOutData_reg is absorbed into DSP y3_CalCore/rOutData_reg.
+DSP Report: operator y3_CalCore/rOutData0 is absorbed into DSP y3_CalCore/rOutData_reg.
+DSP Report: Generating DSP C, operation Mode is: (A''*(B:0x0) or 0).
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register A is absorbed into DSP C.
+DSP Report: register C is absorbed into DSP C.
+DSP Report: operator y2_CalCore/rInData10 is absorbed into DSP C.
+DSP Report: Generating DSP y2_CalCore/rInData30, operation Mode is: (A2*(B:0x0) or 0).
+DSP Report: register A is absorbed into DSP y2_CalCore/rInData30.
+DSP Report: operator y2_CalCore/rInData30 is absorbed into DSP y2_CalCore/rInData30.
+DSP Report: Generating DSP y2_CalCore/rOutData0, operation Mode is: C+A2:B2.
+DSP Report: register B is absorbed into DSP y2_CalCore/rOutData0.
+DSP Report: register A is absorbed into DSP y2_CalCore/rOutData0.
+DSP Report: operator y2_CalCore/rOutData0 is absorbed into DSP y2_CalCore/rOutData0.
+DSP Report: Generating DSP y2_CalCore/rOutData_reg, operation Mode is: (C+A:B)'.
+DSP Report: register y2_CalCore/rOutData_reg is absorbed into DSP y2_CalCore/rOutData_reg.
+DSP Report: operator y2_CalCore/rOutData0 is absorbed into DSP y2_CalCore/rOutData_reg.
+DSP Report: Generating DSP YSum_reg, operation Mode is: (PCIN+A:B+C)'.
+DSP Report: register YSum_reg is absorbed into DSP YSum_reg.
+DSP Report: operator YSum0 is absorbed into DSP YSum_reg.
+DSP Report: Generating DSP SquareAbsXYSum_reg, operation Mode is: (PCIN+(A2*B2)')'.
+DSP Report: register AbsYSum_reg is absorbed into DSP SquareAbsXYSum_reg.
+DSP Report: register AbsYSum_reg is absorbed into DSP SquareAbsXYSum_reg.
+DSP Report: register SquareAbsXYSum_reg is absorbed into DSP SquareAbsXYSum_reg.
+DSP Report: register SquareAbsYSum_reg is absorbed into DSP SquareAbsXYSum_reg.
+DSP Report: operator SquareAbsXYSum0 is absorbed into DSP SquareAbsXYSum_reg.
+DSP Report: operator SquareAbsYSum0 is absorbed into DSP SquareAbsXYSum_reg.
+INFO: [Synth 8-3886] merging instance 'y3_CalCore/rInDataDe_reg[0]' (FD) to 'y2_CalCore/rInDataDe_reg[0]'
+INFO: [Synth 8-3886] merging instance 'y1_CalCore/rInDataDe_reg[0]' (FD) to 'y2_CalCore/rInDataDe_reg[0]'
+INFO: [Synth 8-3886] merging instance 'y2_CalCore/rInDataDe_reg[0]' (FD) to 'x3_CalCore/rInDataDe_reg[0]'
+INFO: [Synth 8-3886] merging instance 'x3_CalCore/rInDataDe_reg[0]' (FD) to 'x2_CalCore/rInDataDe_reg[0]'
+INFO: [Synth 8-3886] merging instance 'x1_CalCore/rInDataDe_reg[0]' (FD) to 'x2_CalCore/rInDataDe_reg[0]'
+INFO: [Synth 8-3886] merging instance 'y3_CalCore/rInDataDe_reg[1]' (FD) to 'x1_CalCore/rInDataDe_reg[1]'
+INFO: [Synth 8-3886] merging instance 'y1_CalCore/rInDataDe_reg[1]' (FD) to 'x1_CalCore/rInDataDe_reg[1]'
+INFO: [Synth 8-3886] merging instance 'y2_CalCore/rInDataDe_reg[1]' (FD) to 'x1_CalCore/rInDataDe_reg[1]'
+INFO: [Synth 8-3886] merging instance 'x3_CalCore/rInDataDe_reg[1]' (FD) to 'x1_CalCore/rInDataDe_reg[1]'
+INFO: [Synth 8-3886] merging instance 'x1_CalCore/rInDataDe_reg[1]' (FD) to 'x2_CalCore/rInDataDe_reg[1]'
+INFO: [Synth 8-3886] merging instance 'YDe_reg' (FD) to 'XDe_reg'
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[23]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[22]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[21]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[20]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[19]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[18]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[17]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[16]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[15]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[14]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[13]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[12]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[11]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[10]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[9]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData3_reg[8]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[23]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[22]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[21]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[20]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[19]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[18]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[17]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[16]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[15]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[14]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[13]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[12]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[11]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[10]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[9]) is unused and will be removed from module Sobel.
+WARNING: [Synth 8-3332] Sequential element (u_Matrix/OutMatrixData2_reg[8]) is unused and will be removed from module Sobel.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 883.789 ; gain = 534.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping            | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Sobel       | (A''*(B:0x0) or 0)     | 9      | 1      | -      | -      | 10     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|Sobel       | (A''*(B:0x3ffff) or 0) | 9      | 1      | -      | -      | 10     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|Sobel       | C+A2:B2                | 30     | 18     | 48     | -      | 16     | 1    | 1    | 0    | -    | -     | 0    | 0    | 
+|CalCore     | (C+A:B)'               | 30     | 18     | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|Sobel       | (A''*(B:0x0) or 0)     | 9      | 1      | -      | -      | 10     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|Sobel       | (A''*(B:0x3ffff) or 0) | 9      | 1      | -      | -      | 10     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|Sobel       | C+A2:B2                | 30     | 18     | 48     | -      | 16     | 1    | 1    | 0    | -    | -     | 0    | 0    | 
+|CalCore     | (C+A:B)'               | 30     | 18     | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|Sobel       | (A''*(B:0x0) or 0)     | 9      | 1      | -      | -      | 10     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|Sobel       | (A''*(B:0x3fffe) or 0) | 9      | 2      | -      | -      | 11     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|Sobel       | C+A2:B2                | 30     | 18     | 48     | -      | 16     | 1    | 1    | 0    | -    | -     | 0    | 0    | 
+|CalCore     | (C+A:B)'               | 30     | 18     | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|Sobel       | (PCIN+A:B+C)'          | 30     | 18     | 48     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|Sobel       | (A2*B2)'               | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 0    | 
+|Sobel       | C'+A2:B2               | 30     | 18     | 48     | -      | 16     | 1    | 1    | 1    | -    | -     | 0    | 0    | 
+|Sobel       | (C'+A:B)'              | 30     | 18     | 48     | -      | 16     | 0    | 0    | 1    | -    | -     | 0    | 1    | 
+|Sobel       | (A''*(B:0x3fffe) or 0) | 9      | 2      | -      | -      | 11     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|Sobel       | (A2*(B:0x3ffff) or 0)  | 9      | 1      | -      | -      | 10     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|Sobel       | C+A2:B2                | 30     | 18     | 48     | -      | 16     | 1    | 1    | 0    | -    | -     | 0    | 0    | 
+|CalCore     | (C+A:B)'               | 30     | 18     | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|Sobel       | (A''*(B:0x0) or 0)     | 9      | 1      | -      | -      | 10     | 2    | 0    | -    | -    | -     | 0    | 1    | 
+|Sobel       | (A2*(B:0x0) or 0)      | 9      | 1      | -      | -      | 10     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|Sobel       | C+A2:B2                | 30     | 18     | 48     | -      | 16     | 1    | 1    | 0    | -    | -     | 0    | 0    | 
+|CalCore     | (C+A:B)'               | 30     | 18     | 48     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|Sobel       | (PCIN+A:B+C)'          | 30     | 18     | 48     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|Sobel       | (PCIN+(A2*B2)')'       | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 1    | 
++------------+------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 951.453 ; gain = 601.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 951.828 ; gain = 602.184
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 963.438 ; gain = 613.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 963.438 ; gain = 613.793
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 963.438 ; gain = 613.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 963.438 ; gain = 613.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 963.438 ; gain = 613.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 963.438 ; gain = 613.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 963.438 ; gain = 613.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                 | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Sobel       | rSquareAbsXYSumDe_reg[2] | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------+----------+
+|      |BlackBox name           |Instances |
++------+------------------------+----------+
+|1     |Square_Root             |         1|
+|2     |Fifo_In8x1024_Out8x1024 |         2|
++------+------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------+------+
+|      |Cell                       |Count |
++------+---------------------------+------+
+|1     |Fifo_In8x1024_Out8x1024    |     1|
+|2     |Fifo_In8x1024_Out8x1024__1 |     1|
+|3     |Square_Root                |     1|
+|4     |BUFG                       |     1|
+|5     |CARRY4                     |     4|
+|6     |DSP48E1                    |     8|
+|7     |DSP48E1_1                  |     5|
+|8     |DSP48E1_2                  |     7|
+|9     |DSP48E1_4                  |     1|
+|10    |DSP48E1_5                  |     1|
+|11    |DSP48E1_6                  |     2|
+|12    |DSP48E1_7                  |     1|
+|13    |DSP48E1_8                  |     1|
+|14    |LUT1                       |     1|
+|15    |LUT2                       |    72|
+|16    |LUT3                       |     1|
+|17    |LUT4                       |     3|
+|18    |LUT5                       |     2|
+|19    |LUT6                       |     6|
+|20    |SRL16E                     |     1|
+|21    |FDRE                       |    73|
+|22    |FDSE                       |     8|
+|23    |IBUF                       |    11|
+|24    |OBUF                       |    11|
++------+---------------------------+------+
+
+Report Instance Areas: 
++------+-----------------+---------------+------+
+|      |Instance         |Module         |Cells |
++------+-----------------+---------------+------+
+|1     |top              |               |   267|
+|2     |  PluseDection   |PluseDection   |    15|
+|3     |  u_Matrix       |Matrix         |   110|
+|4     |    PluseDection |PluseDection_5 |     3|
+|5     |  x1_CalCore     |CalCore        |    10|
+|6     |  x2_CalCore     |CalCore_0      |     2|
+|7     |  x3_CalCore     |CalCore_1      |    10|
+|8     |  y1_CalCore     |CalCore_2      |    10|
+|9     |  y2_CalCore     |CalCore_3      |     3|
+|10    |  y3_CalCore     |CalCore_4      |     3|
++------+-----------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 963.438 ; gain = 613.793
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 104 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 963.438 ; gain = 231.949
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 963.438 ; gain = 613.793
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 963.438 ; gain = 625.305
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/image_process/Sobel/prj/prj/prj.runs/synth_1/Sobel.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Sobel_utilization_synth.rpt -pb Sobel_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.134 . Memory (MB): peak = 963.438 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 18 19:27:25 2023...

@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim
+PThF9NIYJZqknm1Jz0zOouqtyrYZ8Js80Oo/clEb+/04=
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 w1679130499
+R0
+Z4 8../../../../prj.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd
+Z5 F../../../../prj.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd
+l0
+L64
+V6SfkPNT;DO9^n_3hG>gbC1
+!s100 ^f6Fc4g053DUGm42n95Gk0
+Z6 OP;C;10.6c;65
+!i119 1
+!i8a 1120326272
+31
+b1
+Z7 !s110 1679134485
+!i10b 1
+Z8 !s108 1679134484.000000
+Z9 !s90 -64|-93|-work|xbip_utils_v3_0_9|../../../../prj.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd|
+Z10 !s107 ../../../../prj.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd|
+!i113 1
+Z11 o-93 -work xbip_utils_v3_0_9
+Z12 tExplicit 1 CvgOpt 0
+n7df4c47
+Bmz1jLD1zU1vwZgAdv/pg5A==
+Z13 DPx4 work 21 xbip_utils_v3_0_9_pkg 0 22 6SfkPNT;DO9^n_3hG>gbC1
+R1
+R2
+l0
+L64
+Z14 V@IFd9^@W9Q>V1e2BH?Km?2
+Z15 !s100 iVcCLP0Q5H9=FUK`8cBJ`3
+R6
+!i119 1
+!i8a 810711632
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Z16 nbody
+PJdMlXymjaFAjmF6D1NROLQ==
+R3
+R0
+R4
+R5
+l0
+L64
+V9SN>PQJ;YegRgolO011[I2
+!s100 OVdazG<Z>ll6gD<hO47YH0
+R6
+!i119 1
+!i8a 848081312
+31
+b1
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+na205600
+BZs9Fz1HbmHfxLDHtGKlt0A==
+Z17 DPx4 work 14 xcc_utils_v3_0 0 22 9SN>PQJ;YegRgolO011[I2
+l0
+L64
+Z18 V_hSz:zbL`aQl<3<l=zKoB0
+Z19 !s100 lZ3Aiak?iWHdLCYbXk>NY0
+R6
+!i119 1
+!i8a 2093715024
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R16

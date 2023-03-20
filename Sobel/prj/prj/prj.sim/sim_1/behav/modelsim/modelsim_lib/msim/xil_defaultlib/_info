@@ -1,0 +1,617 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim
+vasym_bwe_bb
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1679136842
+!i10b 1
+!s100 d29lHGhQNV@HNcNGj79XU1
+I_InNcAMb2HZbbWYJDQ=Kn1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 xpm_memory_sv_unit
+S1
+R0
+Z5 w1529034968
+Z6 8E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Z7 FE:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+L0 6541
+Z8 OP;L;10.6c;65
+r1
+!s85 0
+31
+Z9 !s108 1679136842.000000
+Z10 !s107 E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|xil_defaultlib|E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+!i113 1
+Z12 o-sv -work xil_defaultlib
+Z13 tCvgOpt 0
+vCalCore
+R2
+!i10b 1
+!s100 ON?o]7eJ1F@2DmdimM3[m3
+If]Vb:e@a>]4a_3I^5a6TG1
+R3
+R0
+w1679132304
+8F:/image_process/Sobel/src/CalCore.v
+FF:/image_process/Sobel/src/CalCore.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 F:/image_process/Sobel/src/CalCore.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/src/CalCore.v|
+!i113 1
+Z14 o-work xil_defaultlib
+R13
+n@cal@core
+vFifo_In8x1024_Out8x1024
+R2
+!i10b 1
+!s100 in4_iYK9BXo7N]0XgNEN00
+IVh[hD9W=f]hDA=8lzZ1MU1
+R3
+R0
+w1679126022
+8F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v
+FF:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v
+L0 56
+R8
+r1
+!s85 0
+31
+R9
+!s107 F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v|
+!i113 1
+R14
+R13
+n@fifo_@in8x1024_@out8x1024
+vglbl
+R2
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IWYBfi:RTLY45Phhfi8?X61
+R3
+R0
+w1529022455
+8F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v
+FF:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+!s107 F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v|
+!i113 1
+R14
+R13
+vMatrix
+R2
+!i10b 1
+!s100 JW]EFHHAJ:YGF4mRUPZk;0
+I?SC67l>?L@>NNnk4l_@Gz3
+R3
+R0
+w1679126351
+8F:/image_process/Sobel/src/Matrix.v
+FF:/image_process/Sobel/src/Matrix.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 F:/image_process/Sobel/src/Matrix.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/src/Matrix.v|
+!i113 1
+R14
+R13
+n@matrix
+vPicSim
+R2
+!i10b 1
+!s100 D2N<@mTY^Mc20fOa[>D`L1
+Io2^cJ7h;=NPPQaz>8gee?2
+R3
+R0
+w1679134667
+8F:/image_process/Sobel/src/PicSim.v
+FF:/image_process/Sobel/src/PicSim.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 F:/image_process/Sobel/src/PicSim.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/src/PicSim.v|
+!i113 1
+R14
+R13
+n@pic@sim
+vPluseDection
+Z15 !s110 1679136843
+!i10b 1
+!s100 ]Q<Z2[Cn?5=JX`c7hCIM00
+I6^8DLRSge_nm3b4nZWJeC1
+R3
+R0
+w1676909912
+8F:/image_process/Sobel/src/PluseDection.v
+FF:/image_process/Sobel/src/PluseDection.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z16 !s108 1679136843.000000
+!s107 F:/image_process/Sobel/src/PluseDection.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/src/PluseDection.v|
+!i113 1
+R14
+R13
+n@pluse@dection
+vSobel
+R15
+!i10b 1
+!s100 5Q_d<gE19AEZB`eA>87^81
+IJdaoG2D3mHEHGSoHW7zzf1
+R3
+R0
+w1679135654
+8F:/image_process/Sobel/src/Sobel.v
+FF:/image_process/Sobel/src/Sobel.v
+L0 1
+R8
+r1
+!s85 0
+31
+R16
+!s107 F:/image_process/Sobel/src/Sobel.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/src/Sobel.v|
+!i113 1
+R14
+R13
+n@sobel
+Esquare_root
+Z17 w1679136818
+Z18 DPx14 cordic_v6_0_14 23 cordic_v6_0_14_viv_comp 0 22 Qj>DS8M7kZa6S@eODzQFS3
+DEx14 cordic_v6_0_14 14 cordic_v6_0_14 0 22 Mg_2BJBczQk0D:Z:1O7TT0
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z20 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z21 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z22 8F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd
+Z23 FF:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd
+l0
+L59
+VLlD:GSjWl;imDFWK`67kE0
+!s100 P8o3VI8zZ_NIKcnZ:]GW93
+Z24 OP;C;10.6c;65
+31
+R15
+!i10b 1
+R16
+Z25 !s90 -reportprogress|300|-93|-work|xil_defaultlib|F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd|
+Z26 !s107 F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd|
+!i113 1
+Z27 o-93 -work xil_defaultlib
+Z28 tExplicit 1 CvgOpt 0
+Asquare_root_arch
+R18
+R19
+R20
+R21
+DEx4 work 11 square_root 0 22 LlD:GSjWl;imDFWK`67kE0
+l136
+L69
+V9Q`n;`9hndzfB?bADhATI1
+!s100 D?bCaXBfg23;nYdZTn>gb2
+R24
+31
+R15
+!i10b 1
+R16
+R25
+R26
+!i113 1
+R27
+R28
+vtb
+R15
+!i10b 1
+!s100 gGahIfLK6_f=O8Xj79CHa3
+IEnk2SmIkPjH4k8TNm[=JH1
+R3
+R0
+w1679135184
+8F:/image_process/Sobel/Sim/tb.v
+FF:/image_process/Sobel/Sim/tb.v
+L0 3
+R8
+r1
+!s85 0
+31
+R16
+!s107 F:/image_process/Sobel/Sim/tb.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/Sim/tb.v|
+!i113 1
+R14
+R13
+vVesaDriver
+R15
+!i10b 1
+!s100 E]W<kClIY;CfQPZ@h:Qz:1
+IUC_JHd?I92RO3AB@lQIVZ2
+R3
+R0
+w1677001269
+8F:/image_process/Sobel/src/VesaDriver.v
+FF:/image_process/Sobel/src/VesaDriver.v
+L0 1
+R8
+r1
+!s85 0
+31
+R16
+!s107 F:/image_process/Sobel/src/VesaDriver.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|F:/image_process/Sobel/src/VesaDriver.v|
+!i113 1
+R14
+R13
+n@vesa@driver
+vxpm_cdc_array_single
+Z29 !s10a 1529034968
+R1
+Z30 !s110 1679124485
+!i10b 1
+!s100 NO4kf<`<CI<OL`K^Ogi`40
+IJDaB<;W6]E?@c<RQ[8IX22
+R3
+Z31 !s105 xpm_cdc_sv_unit
+S1
+R0
+R5
+Z32 8E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+Z33 FE:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+L0 903
+R8
+r1
+!s85 0
+31
+Z34 !s108 1679124485.000000
+Z35 !s107 E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|
+Z36 !s90 -64|-incr|-sv|-work|xil_defaultlib|E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+!i113 1
+R12
+R13
+vxpm_cdc_async_rst
+R29
+R1
+R30
+!i10b 1
+!s100 6XSF2RZ?0A4N7;1XYP2P]3
+IWIB7XIfiMIAhGYMHI9d4n1
+R3
+R31
+S1
+R0
+R5
+R32
+R33
+L0 1171
+R8
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R12
+R13
+vxpm_cdc_gray
+R29
+R1
+R30
+!i10b 1
+!s100 c5:[hXPGkREE=om;h1PER2
+I;Kkg9li`k@EcA_nU5DaNT3
+R3
+R31
+S1
+R0
+R5
+R32
+R33
+L0 284
+R8
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R12
+R13
+vxpm_cdc_handshake
+R29
+R1
+R30
+!i10b 1
+!s100 2nX[0D7bN@CTBzPhT6ZId2
+I:T^4aGPo8g=;2=D8gE9U80
+R3
+R31
+S1
+R0
+R5
+R32
+R33
+L0 469
+R8
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R12
+R13
+vxpm_cdc_pulse
+R29
+R1
+R30
+!i10b 1
+!s100 =[IbJ?5ZSd_W^B7BUX1:S1
+IL0aK3LgE`fW;E]XDc=B3_3
+R3
+R31
+S1
+R0
+R5
+R32
+R33
+L0 715
+R8
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R12
+R13
+vxpm_cdc_single
+R29
+R1
+R30
+!i10b 1
+!s100 ET1C2ZNLeac[<SbXI_oJ_0
+I`XjWznA11L[E>BXI8<^_e1
+R3
+R31
+S1
+R0
+R5
+R32
+R33
+L0 153
+R8
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R12
+R13
+vxpm_cdc_sync_rst
+R29
+R1
+R30
+!i10b 1
+!s100 :83?BM@_@GH?fgI;Q0<2G0
+IS7A;_Z4cOQCA:KaQGQoN=1
+R3
+R31
+S1
+R0
+R5
+R32
+R33
+L0 1055
+R8
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+R12
+R13
+vxpm_memory_base
+R1
+R2
+!i10b 1
+!s100 3XELdPCiOGYz`72mK:<0V1
+IN;a9aa=>3YZBJVDe^ol;H3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 57
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vxpm_memory_dpdistram
+R1
+R2
+!i10b 1
+!s100 ^nUXoJAi_zMQ@3<[5H37i3
+IFWTBD6BKz9JmlR2cW:4j?3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 6600
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vxpm_memory_dprom
+R1
+R2
+!i10b 1
+!s100 oPZkEe17732A4TDJXANLE3
+IdcRFh7Qo_^7nPVV:JGlmQ2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 6734
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vxpm_memory_sdpram
+R1
+R2
+!i10b 1
+!s100 GJL271D_3k;fZF;NAWZJA2
+IodJHzKM0d63NaI]4ojGh?0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 6888
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vxpm_memory_spram
+R1
+R2
+!i10b 1
+!s100 0n>f?mj9XT4BF`3i5;FYI2
+Ik2VUWA<e:ga3RLHPHY7D>3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 7043
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vxpm_memory_sprom
+R1
+R2
+!i10b 1
+!s100 6eABzU4=kfQcA`UX4^mTE2
+I5Y_e2Uebzb0XI;><Ja0z]1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 7189
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vxpm_memory_tdpram
+R1
+R2
+!i10b 1
+!s100 DNPY]ONNMLR>@F[WQ_CTQ3
+IMX80Y_iGZ:czLcE^=<;>P3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 7325
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13

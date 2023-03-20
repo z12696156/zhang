@@ -1,0 +1,332 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim
+Pe6u4rpu0oaCKpbcbieu7kDYfd45Wm3kojmksBpRfwVA=
+Z1 DPx19 xbip_bram18k_v3_0_5 23 xbip_bram18k_v3_0_5_pkg 0 22 2;=6Sn4EQ4?Q:l1@dH]8[3
+Z2 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 6SfkPNT;DO9^n_3hG>gbC1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 w1679130499
+R0
+Z6 8../../../../prj.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd
+Z7 F../../../../prj.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd
+l0
+L64
+VDIJSjL]Age`8Nk:4cT8EN2
+!s100 a2Pb<o4C41?gGUzz0bWDV3
+Z8 OP;C;10.6c;65
+!i119 1
+!i8a 768562208
+31
+Z9 !s110 1679134488
+!i10b 1
+Z10 !s108 1679134487.000000
+Z11 !s90 -64|-93|-work|xbip_bram18k_v3_0_5|../../../../prj.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd|
+Z12 !s107 ../../../../prj.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd|
+!i113 1
+Z13 o-93 -work xbip_bram18k_v3_0_5
+Z14 tExplicit 1 CvgOpt 0
+n1b4aa27
+Ege0zl9tQef7HaSL+cAXLlZzRas0LFbOERQlEAVmP274=
+R5
+Z15 DPx19 xbip_bram18k_v3_0_5 20 xbip_bram18k_hdl_pkg 0 22 DIJSjL]Age`8Nk:4cT8EN2
+R1
+Z16 DPx16 xbip_pipe_v3_0_5 25 xbip_pipe_v3_0_5_viv_comp 0 22 o<zN8bn0Vd_5i0U:3j2;T0
+R2
+Z17 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+R0
+R6
+R7
+l0
+L64
+V4Yh`ezfjf3]<LXb18TN7E0
+!s100 `H_h`=gW64Uz<SmgC6o@;2
+R8
+!i119 1
+!i8a 298548160
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n2cf06ac
+A9xv4oayjSUY24SAxu8tDLA==
+R15
+R1
+R16
+R2
+R17
+R18
+R19
+R3
+R4
+Z20 DEx4 work 16 xbip_bram18k_rtl 0 22 4Yh`ezfjf3]<LXb18TN7E0
+l64
+L64
+Z21 V@PYILXoh]A6A:9:U`InRS3
+Z22 !s100 2n3zj@S]o>n[RSI7FiJQl3
+R8
+!i119 1
+!i8a 2059147968
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Z23 n79ac
+ExgsjKPglnWU/uGLM9wY6hIy35LNvYfG3Ueg5l8aff/4=
+R5
+R1
+R15
+R16
+R2
+Z24 DPx6 unisim 11 vcomponents 0 22 I:zPoFa^@lZ@RH_HlNAc81
+R17
+R18
+Z25 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R3
+R4
+R0
+R6
+R7
+l0
+L64
+V1<O<0nUKk<;A5=Y2<;>9d1
+!s100 ROD5kePMTNO5@o<@4MzFB1
+R8
+!i119 1
+!i8a 258038992
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+nf060768
+Ada3FPqi7C5zyAGwS+mD8Yg==
+R1
+R15
+R16
+R2
+R24
+R17
+R18
+R25
+R3
+R4
+Z26 DEx4 work 18 xbip_bram18k_synth 0 22 1<O<0nUKk<;A5=Y2<;>9d1
+l64
+L64
+Z27 VCW>=iG76C:KP=[6]>zVPz3
+Z28 !s100 23^36@bTfkkSoej@Z3OS@1
+R8
+!i119 1
+!i8a 562505120
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Z29 n7b05a8
+EJbx3JlUaFeyZqKQcl8PpUqIEkY96jrg3R51uCZy0xTs=
+R5
+Z30 DPx19 xbip_bram18k_v3_0_5 28 xbip_bram18k_v3_0_5_viv_comp 0 22 IQQg3URGO2?[f[Cb:K8k`0
+R2
+R1
+R3
+R4
+R0
+R6
+R7
+l0
+L64
+V2E2HIfU>M:?BJPMRJb6;e1
+!s100 EiYnH`d>XlWLVMkf5ze<N0
+R8
+!i119 1
+!i8a 1413446272
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n690ad5
+A01i0QhIII7iUU2GPnehmXg==
+R30
+R2
+R1
+R3
+R4
+Z31 DEx4 work 19 xbip_bram18k_v3_0_5 0 22 2E2HIfU>M:?BJPMRJb6;e1
+l64
+L64
+Z32 VlCT`gCG6;JF@VS_f@bZ5P3
+Z33 !s100 V>1RlUK0J76dH^L1fKdn12
+R8
+!i119 1
+!i8a 463627792
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Z34 n7f03058
+PyLiTAN4hvgOXMgvAWKv5F0ICmaW5udWnMM1XrSFeTfc=
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L64
+V2;=6Sn4EQ4?Q:l1@dH]8[3
+!s100 1AMd[AP@4Q9a`dN3<Ojjh2
+R8
+!i119 1
+!i8a 409531600
+31
+b1
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+nadb1017
+BdpO/zAqDdd2H/JOqrQUvMw==
+Z35 DPx4 work 23 xbip_bram18k_v3_0_5_pkg 0 22 2;=6Sn4EQ4?Q:l1@dH]8[3
+R2
+R3
+R4
+l0
+L64
+Z36 V;9=0]S[zi9bmTzR@[AR<I1
+Z37 !s100 d6aX1H>DBEDja87:mk;n@0
+R8
+!i119 1
+!i8a 1278293376
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Z38 nbody
+E7nnBabVEvYon+U3DaWbAfDh5SgLhOFMwY9nMy7VgO5E=
+R5
+R1
+R2
+R15
+R3
+R4
+R0
+R6
+R7
+l0
+L64
+VaS0HzRCdV7Z2f0lzz>WLU3
+!s100 7l`?hZK5ogHN;boIifQe:0
+R8
+!i119 1
+!i8a 1352390480
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+nadb0606
+AcAlcfMvn8nSoz1chMAQHFQ==
+R1
+R2
+R15
+R3
+R4
+Z39 DEx4 work 23 xbip_bram18k_v3_0_5_viv 0 22 aS0HzRCdV7Z2f0lzz>WLU3
+l64
+L64
+Z40 V2RdYa`Cl=?O60Q]iOfWE70
+Z41 !s100 Rnb5J1ZQzMIa4HM43]7BP1
+R8
+!i119 1
+!i8a 522231184
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+R29
+PQgFdDQT7HVOayRJNN5LHG+VsksFIXVIgYK9J5H63IIA=
+R2
+R1
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L64
+VIQQg3URGO2?[f[Cb:K8k`0
+!s100 VkNW1:<Cl9c1hInNmUQlZ0
+R8
+!i119 1
+!i8a 1874436096
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+n283620

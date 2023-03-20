@@ -1,0 +1,1603 @@
+# A bookmarks file was found in the current directory with 1 bookmark
+# do {tb_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L xpm -L xbip_utils_v3_0_9 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_5 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L axi_utils_v2_0_5 -L cordic_v6_0_14 -L fifo_generator_v13_2_2 -L unisims_ver -L unimacro_ver -L secureip -lib xil_defaultlib xil_defaultlib.tb xil_defaultlib.glbl 
+# Start time: 18:15:00 on Mar 18,2023
+# Loading xil_defaultlib.tb
+# Loading xil_defaultlib.VesaDriver
+# Loading xil_defaultlib.PicSim
+# Loading xil_defaultlib.Sobel
+# Loading xil_defaultlib.PluseDection
+# Loading xil_defaultlib.Matrix
+# Loading xil_defaultlib.Fifo_In8x1024_Out8x1024
+# Loading xil_defaultlib.CalCore
+# Loading xil_defaultlib.glbl
+# Loading fifo_generator_v13_2_2.fifo_generator_vlog_beh
+# Loading fifo_generator_v13_2_2.fifo_generator_v13_2_2_CONV_VER
+# Loading fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_as
+# Loading fifo_generator_v13_2_2.fifo_generator_v13_2_2_bhv_ver_preload0
+# Loading fifo_generator_v13_2_2.fifo_generator_v13_2_2_sync_stage
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading xil_defaultlib.square_root(square_root_arch)
+# Loading ieee.math_real(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading unisim.muxcy(muxcy_v)
+# Loading unisim.xorcy(xorcy_v)
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: ../../../../../../src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: ../../../../../../src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: ../../../../../../src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: ../../../../../../src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: ../../../../../../src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: ../../../../../../src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: ../../../../../../src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: ../../../../../../src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: ../../../../../../src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: ../../../../../../src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: ../../../../../../src/PicSim.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (32) for port 'InRdPicData'. The port definition is at: ../../../../../../src/PicSim.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: ../../../../../../src/PicSim.v
+# ** Warning: (vsim-3017) ../../../../../../src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: ../../../../../../src/PluseDection.v
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) ../../../../../../src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: ../../../../../../src/PluseDection.v
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(24 downto 0) has no driver.
+# This port will contribute value (25'hXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+# A bookmarks file was found in the current directory with 1 bookmark
+# 1
+# 1
+# Bookmark(s) were restored for window "Wave"
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_gray.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(42)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_Gray.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# Loaded 1 bookmarks for window "Wave"
+add wave -position insertpoint sim:/tb/u_Sobel/*
+# Break key hit
+restart
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: ../../../../../../src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: ../../../../../../src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: ../../../../../../src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: ../../../../../../src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: ../../../../../../src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: ../../../../../../src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: ../../../../../../src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: ../../../../../../src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: ../../../../../../src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: ../../../../../../src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: ../../../../../../src/PicSim.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (32) for port 'InRdPicData'. The port definition is at: ../../../../../../src/PicSim.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: ../../../../../../src/PicSim.v
+# ** Warning: (vsim-3017) ../../../../../../src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: ../../../../../../src/PluseDection.v
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) ../../../../../../src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: ../../../../../../src/PluseDection.v
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(24 downto 0) has no driver.
+# This port will contribute value (25'hXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_gray.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(42)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_Gray.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+add wave -position insertpoint sim:/tb/PicSim/*
+# Break key hit
+restart
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: ../../../../../../src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: ../../../../../../src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: ../../../../../../src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: ../../../../../../src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: ../../../../../../src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: ../../../../../../src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: ../../../../../../src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: ../../../../../../src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: ../../../../../../src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: ../../../../../../src/VesaDriver.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: ../../../../../../src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: ../../../../../../src/PicSim.v
+# ** Warning: (vsim-3015) ../../../../../../Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (32) for port 'InRdPicData'. The port definition is at: ../../../../../../src/PicSim.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: ../../../../../../src/PicSim.v
+# ** Warning: (vsim-3017) ../../../../../../src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: ../../../../../../src/PluseDection.v
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) ../../../../../../src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: ../../../../../../src/PluseDection.v
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) ../../../../../../src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: ../../../../../../src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: ../../../../../../src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-3015) ../../../../../../src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: ../../../../../../src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: ../../../../../../src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(24 downto 0) has no driver.
+# This port will contribute value (25'hXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_gray.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(42)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_Gray.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : ../../../../../../src/PicSim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+vlog -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:09 on Mar 18,2023
+# vlog -reportprogress 300 -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv 
+# -- Compiling module xpm_memory_base
+# -- Compiling module asym_bwe_bb
+# -- Compiling module xpm_memory_dpdistram
+# -- Compiling module xpm_memory_dprom
+# -- Compiling module xpm_memory_sdpram
+# -- Compiling module xpm_memory_spram
+# -- Compiling module xpm_memory_sprom
+# -- Compiling module xpm_memory_tdpram
+# 
+# Top level modules:
+# 	xpm_memory_dpdistram
+# 	xpm_memory_dprom
+# 	xpm_memory_sdpram
+# 	xpm_memory_spram
+# 	xpm_memory_sprom
+# 	xpm_memory_tdpram
+# End time: 18:18:09 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:09 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v 
+# -- Compiling module CalCore
+# 
+# Top level modules:
+# 	CalCore
+# End time: 18:18:09 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:09 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v 
+# -- Compiling module Fifo_In8x1024_Out8x1024
+# 
+# Top level modules:
+# 	Fifo_In8x1024_Out8x1024
+# End time: 18:18:09 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:10 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:18:10 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:10 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v 
+# -- Compiling module Matrix
+# 
+# Top level modules:
+# 	Matrix
+# End time: 18:18:10 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:10 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v 
+# -- Compiling module PicSim
+# 
+# Top level modules:
+# 	PicSim
+# End time: 18:18:10 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:10 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v 
+# -- Compiling module PluseDection
+# 
+# Top level modules:
+# 	PluseDection
+# End time: 18:18:10 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:10 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v 
+# -- Compiling module Sobel
+# 
+# Top level modules:
+# 	Sobel
+# End time: 18:18:10 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd
+# Model Technology ModelSim DE-64 vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:10 on Mar 18,2023
+# vcom -reportprogress 300 -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Square_Root
+# -- Compiling architecture Square_Root_arch of Square_Root
+# End time: 18:18:10 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:10 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:18:10 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:11 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v 
+# -- Compiling module VesaDriver
+# 
+# Top level modules:
+# 	VesaDriver
+# End time: 18:18:11 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break key hit
+# Break key hit
+# Break key hit
+restart
+# Loading xil_defaultlib.tb
+# Loading xil_defaultlib.VesaDriver
+# Loading xil_defaultlib.PicSim
+# Loading xil_defaultlib.Sobel
+# Loading xil_defaultlib.PluseDection
+# Loading xil_defaultlib.Matrix
+# Loading xil_defaultlib.Fifo_In8x1024_Out8x1024
+# Loading xil_defaultlib.CalCore
+# Loading xil_defaultlib.glbl
+# Loading xil_defaultlib.square_root(square_root_arch)
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (32) for port 'InRdPicData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(24 downto 0) has no driver.
+# This port will contribute value (25'hXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+vlog -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:54 on Mar 18,2023
+# vlog -reportprogress 300 -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv 
+# -- Compiling module xpm_memory_base
+# -- Compiling module asym_bwe_bb
+# -- Compiling module xpm_memory_dpdistram
+# -- Compiling module xpm_memory_dprom
+# -- Compiling module xpm_memory_sdpram
+# -- Compiling module xpm_memory_spram
+# -- Compiling module xpm_memory_sprom
+# -- Compiling module xpm_memory_tdpram
+# 
+# Top level modules:
+# 	xpm_memory_dpdistram
+# 	xpm_memory_dprom
+# 	xpm_memory_sdpram
+# 	xpm_memory_spram
+# 	xpm_memory_sprom
+# 	xpm_memory_tdpram
+# End time: 18:24:55 on Mar 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:55 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v 
+# -- Compiling module CalCore
+# 
+# Top level modules:
+# 	CalCore
+# End time: 18:24:55 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:55 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v 
+# -- Compiling module Fifo_In8x1024_Out8x1024
+# 
+# Top level modules:
+# 	Fifo_In8x1024_Out8x1024
+# End time: 18:24:55 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:55 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:24:55 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:55 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v 
+# -- Compiling module Matrix
+# 
+# Top level modules:
+# 	Matrix
+# End time: 18:24:55 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:55 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v 
+# -- Compiling module PicSim
+# 
+# Top level modules:
+# 	PicSim
+# End time: 18:24:55 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:55 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v 
+# -- Compiling module PluseDection
+# 
+# Top level modules:
+# 	PluseDection
+# End time: 18:24:55 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:55 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v 
+# -- Compiling module Sobel
+# 
+# Top level modules:
+# 	Sobel
+# End time: 18:24:55 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd
+# Model Technology ModelSim DE-64 vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:56 on Mar 18,2023
+# vcom -reportprogress 300 -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Square_Root
+# -- Compiling architecture Square_Root_arch of Square_Root
+# End time: 18:24:56 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:56 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:24:56 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:24:56 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v 
+# -- Compiling module VesaDriver
+# 
+# Top level modules:
+# 	VesaDriver
+# End time: 18:24:56 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break key hit
+restart
+# Loading xil_defaultlib.tb
+# Loading xil_defaultlib.VesaDriver
+# Loading xil_defaultlib.PicSim
+# Loading xil_defaultlib.Sobel
+# Loading xil_defaultlib.PluseDection
+# Loading xil_defaultlib.Matrix
+# Loading xil_defaultlib.Fifo_In8x1024_Out8x1024
+# Loading xil_defaultlib.CalCore
+# Loading xil_defaultlib.glbl
+# Loading xil_defaultlib.square_root(square_root_arch)
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (32) for port 'InRdPicData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(24 downto 0) has no driver.
+# This port will contribute value (25'hXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+add wave -position insertpoint sim:/tb/u_Sobel/*
+# Break key hit
+# Break key hit
+restart
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (32) for port 'InRdPicData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(174): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(189): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(205): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(24 downto 0) has no driver.
+# This port will contribute value (25'hXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+vlog -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:58 on Mar 18,2023
+# vlog -reportprogress 300 -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv 
+# -- Compiling module xpm_memory_base
+# -- Compiling module asym_bwe_bb
+# -- Compiling module xpm_memory_dpdistram
+# -- Compiling module xpm_memory_dprom
+# -- Compiling module xpm_memory_sdpram
+# -- Compiling module xpm_memory_spram
+# -- Compiling module xpm_memory_sprom
+# -- Compiling module xpm_memory_tdpram
+# 
+# Top level modules:
+# 	xpm_memory_dpdistram
+# 	xpm_memory_dprom
+# 	xpm_memory_sdpram
+# 	xpm_memory_spram
+# 	xpm_memory_sprom
+# 	xpm_memory_tdpram
+# End time: 18:30:58 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:58 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v 
+# -- Compiling module CalCore
+# 
+# Top level modules:
+# 	CalCore
+# End time: 18:30:58 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:58 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v 
+# -- Compiling module Fifo_In8x1024_Out8x1024
+# 
+# Top level modules:
+# 	Fifo_In8x1024_Out8x1024
+# End time: 18:30:58 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:58 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:30:58 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:58 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v 
+# -- Compiling module Matrix
+# 
+# Top level modules:
+# 	Matrix
+# End time: 18:30:58 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:59 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v 
+# -- Compiling module PicSim
+# 
+# Top level modules:
+# 	PicSim
+# End time: 18:30:59 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:59 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v 
+# -- Compiling module PluseDection
+# 
+# Top level modules:
+# 	PluseDection
+# End time: 18:30:59 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:59 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v 
+# -- Compiling module Sobel
+# 
+# Top level modules:
+# 	Sobel
+# End time: 18:30:59 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd
+# Model Technology ModelSim DE-64 vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:59 on Mar 18,2023
+# vcom -reportprogress 300 -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Square_Root
+# -- Compiling architecture Square_Root_arch of Square_Root
+# End time: 18:30:59 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:59 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:30:59 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:30:59 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v 
+# -- Compiling module VesaDriver
+# 
+# Top level modules:
+# 	VesaDriver
+# End time: 18:30:59 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break key hit
+restart
+# Loading xil_defaultlib.tb
+# Loading xil_defaultlib.VesaDriver
+# Loading xil_defaultlib.PicSim
+# Loading xil_defaultlib.Sobel
+# Loading xil_defaultlib.PluseDection
+# Loading xil_defaultlib.Matrix
+# Loading xil_defaultlib.Fifo_In8x1024_Out8x1024
+# Loading xil_defaultlib.CalCore
+# Loading xil_defaultlib.glbl
+# Loading xil_defaultlib.square_root(square_root_arch)
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(24 downto 0) has no driver.
+# This port will contribute value (25'hXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+vlog -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:19 on Mar 18,2023
+# vlog -reportprogress 300 -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv 
+# -- Compiling module xpm_memory_base
+# -- Compiling module asym_bwe_bb
+# -- Compiling module xpm_memory_dpdistram
+# -- Compiling module xpm_memory_dprom
+# -- Compiling module xpm_memory_sdpram
+# -- Compiling module xpm_memory_spram
+# -- Compiling module xpm_memory_sprom
+# -- Compiling module xpm_memory_tdpram
+# 
+# Top level modules:
+# 	xpm_memory_dpdistram
+# 	xpm_memory_dprom
+# 	xpm_memory_sdpram
+# 	xpm_memory_spram
+# 	xpm_memory_sprom
+# 	xpm_memory_tdpram
+# End time: 18:34:20 on Mar 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:20 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v 
+# -- Compiling module CalCore
+# 
+# Top level modules:
+# 	CalCore
+# End time: 18:34:20 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:20 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v 
+# -- Compiling module Fifo_In8x1024_Out8x1024
+# 
+# Top level modules:
+# 	Fifo_In8x1024_Out8x1024
+# End time: 18:34:20 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:20 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:34:20 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:20 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v 
+# -- Compiling module Matrix
+# 
+# Top level modules:
+# 	Matrix
+# End time: 18:34:20 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:20 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v 
+# -- Compiling module PicSim
+# 
+# Top level modules:
+# 	PicSim
+# End time: 18:34:20 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:20 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v 
+# -- Compiling module PluseDection
+# 
+# Top level modules:
+# 	PluseDection
+# End time: 18:34:20 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:20 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v 
+# -- Compiling module Sobel
+# 
+# Top level modules:
+# 	Sobel
+# End time: 18:34:21 on Mar 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd
+# Model Technology ModelSim DE-64 vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:21 on Mar 18,2023
+# vcom -reportprogress 300 -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Square_Root
+# -- Compiling architecture Square_Root_arch of Square_Root
+# End time: 18:34:21 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:21 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:34:21 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:34:21 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v 
+# -- Compiling module VesaDriver
+# 
+# Top level modules:
+# 	VesaDriver
+# End time: 18:34:21 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break key hit
+restart
+# Loading xil_defaultlib.tb
+# Loading xil_defaultlib.VesaDriver
+# Loading xil_defaultlib.PicSim
+# Loading xil_defaultlib.Sobel
+# Loading xil_defaultlib.PluseDection
+# Loading xil_defaultlib.Matrix
+# Loading xil_defaultlib.Fifo_In8x1024_Out8x1024
+# Loading xil_defaultlib.CalCore
+# Loading xil_defaultlib.glbl
+# Loading xil_defaultlib.square_root(square_root_arch)
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(24 downto 0) has no driver.
+# This port will contribute value (25'hXXXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# ** Note: $stop    : F:/image_process/Sobel/src/PicSim.v(109)
+#    Time: 16869150 ns  Iteration: 1  Instance: /tb/PicSim
+# Break in Module PicSim at F:/image_process/Sobel/src/PicSim.v line 109
+vlog -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:02 on Mar 18,2023
+# vlog -reportprogress 300 -sv -work xil_defaultlib E:/Xilinx/Vivado2018/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv 
+# -- Compiling module xpm_memory_base
+# -- Compiling module asym_bwe_bb
+# -- Compiling module xpm_memory_dpdistram
+# -- Compiling module xpm_memory_dprom
+# -- Compiling module xpm_memory_sdpram
+# -- Compiling module xpm_memory_spram
+# -- Compiling module xpm_memory_sprom
+# -- Compiling module xpm_memory_tdpram
+# 
+# Top level modules:
+# 	xpm_memory_dpdistram
+# 	xpm_memory_dprom
+# 	xpm_memory_sdpram
+# 	xpm_memory_spram
+# 	xpm_memory_sprom
+# 	xpm_memory_tdpram
+# End time: 18:54:02 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:02 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/CalCore.v 
+# -- Compiling module CalCore
+# 
+# Top level modules:
+# 	CalCore
+# End time: 18:54:02 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:02 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/ip/Fifo_In8x1024_Out8x1024/sim/Fifo_In8x1024_Out8x1024.v 
+# -- Compiling module Fifo_In8x1024_Out8x1024
+# 
+# Top level modules:
+# 	Fifo_In8x1024_Out8x1024
+# End time: 18:54:02 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:02 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/prj/prj/prj.sim/sim_1/behav/modelsim/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:54:02 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:02 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Matrix.v 
+# -- Compiling module Matrix
+# 
+# Top level modules:
+# 	Matrix
+# End time: 18:54:02 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:02 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PicSim.v 
+# -- Compiling module PicSim
+# 
+# Top level modules:
+# 	PicSim
+# End time: 18:54:02 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:03 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/PluseDection.v 
+# -- Compiling module PluseDection
+# 
+# Top level modules:
+# 	PluseDection
+# End time: 18:54:03 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:03 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/Sobel.v 
+# -- Compiling module Sobel
+# 
+# Top level modules:
+# 	Sobel
+# End time: 18:54:03 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd
+# Model Technology ModelSim DE-64 vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:03 on Mar 18,2023
+# vcom -reportprogress 300 -93 -work xil_defaultlib F:/image_process/Sobel/src/ip/Square_Root/sim/Square_Root.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Square_Root
+# -- Compiling architecture Square_Root_arch of Square_Root
+# End time: 18:54:03 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:03 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/Sim/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:54:03 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:54:03 on Mar 18,2023
+# vlog -reportprogress 300 -work xil_defaultlib F:/image_process/Sobel/src/VesaDriver.v 
+# -- Compiling module VesaDriver
+# 
+# Top level modules:
+# 	VesaDriver
+# End time: 18:54:03 on Mar 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break key hit
+restart
+# Loading xil_defaultlib.tb
+# Loading xil_defaultlib.VesaDriver
+# Loading xil_defaultlib.PicSim
+# Loading xil_defaultlib.Sobel
+# Loading xil_defaultlib.PluseDection
+# Loading xil_defaultlib.Matrix
+# Loading xil_defaultlib.Fifo_In8x1024_Out8x1024
+# Loading xil_defaultlib.CalCore
+# Loading xil_defaultlib.glbl
+# Loading xil_defaultlib.square_root(square_root_arch)
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (12) does not match connection size (32) for port 'InVesaHat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (8) does not match connection size (32) for port 'InVesaHbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaHst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVtt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (11) does not match connection size (32) for port 'InVesaVat'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVst'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (6) does not match connection size (32) for port 'InVesaVbt'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(27): [PCDPC] - Port size (3) does not match connection size (32) for port 'InVesaVft'. The port definition is at: F:/image_process/Sobel/src/VesaDriver.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_VesaDriver File: F:/image_process/Sobel/src/VesaDriver.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/Sim/tb.v(62): [PCDPC] - Port size (8) does not match connection size (24) for port 'OutWrPixData'. The port definition is at: F:/image_process/Sobel/src/PicSim.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim File: F:/image_process/Sobel/src/PicSim.v
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'neg_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Sobel.v(72): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3017) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Too few port connections. Expected 7, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/u_Matrix/PluseDection File: F:/image_process/Sobel/src/PluseDection.v
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'out_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_pos_sig'.
+# ** Warning: (vsim-3722) F:/image_process/Sobel/src/Matrix.v(32): [TFMPC] - Missing connection for port 'ext_neg_sig'.
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(102): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(117): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(133): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/x3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(172): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y1_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(187): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y2_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK1'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK2'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-3015) F:/image_process/Sobel/src/Sobel.v(203): [PCDPC] - Port size (3) does not match connection size (32) for port 'InK3'. The port definition is at: F:/image_process/Sobel/src/CalCore.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_Sobel/y3_CalCore File: F:/image_process/Sobel/src/CalCore.v
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>(17 downto 0) has no driver.
+# This port will contribute value (18'hXXXXX) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb/u_Sobel/Square_Root/U0/<protected>/<protected>/<protected>/<protected>/<protected> has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_R.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_G.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(40)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-7) Failed to open readmem file "../doc/pre_B.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(41)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_R.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_G.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "../doc/post_B.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : F:/image_process/Sobel/src/PicSim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /tb/PicSim
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# ** Note: $stop    : F:/image_process/Sobel/src/PicSim.v(109)
+#    Time: 16869150 ns  Iteration: 1  Instance: /tb/PicSim
+# Break in Module PicSim at F:/image_process/Sobel/src/PicSim.v line 109
+# No bookmark changes exist in window "Wave"
+# End time: 20:46:57 on Mar 18,2023, Elapsed time: 2:31:57
+# Errors: 0, Warnings: 6
